@@ -1,0 +1,163 @@
+Java- Day -1:
+Introduction to Java:
+Sun Microsystem(Oracle)->1990's
+James Gosling->
+A language that can run on any device with JVM.
+core java and advance java
+
+J2SE
+J2EE
+J2ME
+
+WORA->Write once Run anywhere.
+JVM->java virtual machine
+
+Linux->Windows
+Mac->Linux
+
+
+Features:
+OOPS=>Object oriented programming features.
+Encapsulation->
+Inhertitance
+Polymorphism
+
+100%->
+1%->primitive data type.
+2.platform independent:
+java code can run on any device becoz it has JVM(java virtual machine).
+it will always regardless of the underlying hardware or Operating system.
+3.Memory Management:gc=>garbage collection.
+4.Security:
+robust.
+5.Concurrent:multi-threading=>
+Application->it is to run 2 task parallel.
+
+
+What are variables in java?
+A variables are like named location in memory that stores a specific value or data type.
+//variable declaration.
+number->10
+int number;
+
+name->lavish
+String name;
+
+
+Assigment operator:(=) 
+//intialization of variable
+number=10;
+name="lavish"
+
+Java supports several built in data types:
+1.Numeric data type(int,float,double)
+2.Character->char
+3.boolean->boolean
+4.Reference=>Array,objects,class
+
+5000->
+1000->
+
+
+
+
+
+
+Java supports a variety of data types for reprsenting the values in program.
+1byte->8 bit
+1.primitive Data types
+byte->8-bit signed integer
+short->16-bit(2 byte)
+int->32-bit(4 byte)
+long->64-bit(8 byte)
+float->32-bit(4 byte)
+double->64-bit(8-byte)
+char-16-bit(2-byte)->'10'
+boolean=>true or false
+2.Reference Data types
+Object=>the base class of all the classses in java is Object class 
+String=>String represent a sequence of characters.
+Array =>Collection of values with same type.
+Class->A use-defined typed in java.https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html#:~:text=byte%3A%20The%20byte%20data%20type,value%20of%20127%20(inclusive).
+
+
+
+
+package javacore;
+
+public class Student {
+	
+	public static void main(String[] args) {
+//		int num1=10;
+//		int num2=20;
+		//Arithmetic 
+		
+//		System.out.println(num1+num2);//30
+//		System.out.println(num2-num1);//10
+//		System.out.println(num1*num2);//200
+//		System.out.println(num2/num1);//2(Quotient)
+//		System.out.println(num2%num1);//0(reminder)
+		
+		//Relational Operator
+		
+//		System.out.println(num1>num2);//false
+//		System.out.println(num1<num2);//true
+//		System.out.println(num1==num2);//false
+//		System.out.println(num1<=num2);//true
+//		System.out.println(num1>=num2);//true
+//		System.out.println(num1!=num2);//false
+		
+		//Logical Operation
+		boolean b1=false;
+		
+		
+//		System.out.println(b1&&b2);
+//		System.out.println(b1||b2);
+		System.out.println(!b1);
+		
+		
+		
+	}
+
+}
+
+
+Operators:operator are symbols or concepts to perform business logic or operation 
+1.Arithmetic 
++,-,*,/,%,++,--
+2.Relational:
+>,<,>=,<=,==,!=
+3.Logical:
+&&->AND,->it will only be true if both the condition are true else false.
+||->OR->if both are false otherwise it will 
+!-NOT->
+4.Assignment=>
+=,+=,-=,*=,/=,%= 
+5.Bitwise-we perform an operation on bit
+10=>convert them to binary =bitwise operation=>Decimal
+6.Ternary:
+?:
+
+7.preincrement and decrement
+++
+--
+8.instanceof
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Features of java
+Variables, 
+Data Types
+Keywords
+Operators
